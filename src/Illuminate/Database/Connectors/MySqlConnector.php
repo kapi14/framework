@@ -33,7 +33,7 @@ class MySqlConnector extends Connector implements ConnectorInterface
     }
 
     /**
-     * Set the connection transaction isolation level.
+     * Configure the connection.
      *
      * @param  \PDO  $connection
      * @param  array  $config
